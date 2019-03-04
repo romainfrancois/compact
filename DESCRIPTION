@@ -1,0 +1,15 @@
+Package: compact
+Title: Compact integer sequences
+Version: 0.0.0.9000
+Authors@R: person("Romain", "François", email = "romain@rstudio.com", role = c("aut", "cre"))
+Description: Compact integer sequences.
+Depends: R (>= 3.5.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+SystemRequirements: C++11

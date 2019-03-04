@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# compact
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This is just an experimentation around R > 3.5.0 compact integer sequences
+
+## Installation
+
+You can install the dev version: 
+
+``` r
+remotes::install_github("romainfrancois/compact")
+```
+
+## Example
+
+```{r}
+library(compact)
+
+s <- 1:10
+is_compact(s)
+compact_length(s)
+compact_is_expanded(s)
+compact_first(s)
+compact_increment(s)
+```
+
